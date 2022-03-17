@@ -8,11 +8,16 @@ And this is the implementation I have right now:
 ![image](now.png)
 ## test file 483
 ### My: 
-![image](483My.jpg)
+![image](483Expected.jpg)
 ### Class File: 
-![image](483Expected.JPG)
+![image](483My.JPG)
 
-I found this difference manually and I am not sure who is right because I do not think web links should start with weird symbols like ./ So the markdownparse.java might should check if there is weird symbols in the beginning of the link first. 
+I found this difference manually and I am not sure who is right because I am not sure if web links are allowed start with weird symbols like ./ 
+
+Since it is probably not allowed to behave like that, the instructor's code is corrent and I should include the below code in my code to check for the correctness of the links: 
+![image](code1.png)
+
+
 
 ## test file 41
 ### My:
@@ -22,6 +27,8 @@ I found this difference manually and I am not sure who is right because I do not
 ### Class File: 
 ![image](41Expected.png)
 
-I also found this difference manually and I think I am wrong because this is not a valid link at all. I think one solution for this is to check if the elements such as //, ; which are symbols necessary for a website link exist. 
+I also found this difference manually and I think I am wrong because this is not a valid link at all. I do not think links are suppose to have space between the symbols or characters.   
 
+Below is the code from the instructors that I think my code should also include to check the spaces between the links:  (Line 75)
+![image](code2.png)
 
