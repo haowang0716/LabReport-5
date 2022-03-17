@@ -8,9 +8,9 @@ And this is the implementation I have right now:
 ![image](now.png)
 ## test file 483
 ### My: 
-![image](483Expected.jpg)
+![image](483Expected.JPG)
 ### Class File: 
-![image](483My.JPG)
+![image](483My.jpg)
 
 I found this difference manually and I am not sure who is right because I am not sure if web links are allowed start with weird symbols like ./ 
 
